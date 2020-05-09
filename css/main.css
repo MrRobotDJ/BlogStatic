@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
 body{
     margin:0;
     padding:0;
@@ -66,4 +67,32 @@ nav .profile-link a{
     color:white;
 }
 
-/*--------------------------------------------------------------- hero */
+/*--------------------------------------------------------------- main */
+
+main{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    text-align: center;
+}
+.main-container h1{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    font-weight: 500;
+    font-size: 50px;
+    margin:0;
+}
+.main-container button{
+    margin-top:20px;
+    padding:18px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:#41cfac;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
