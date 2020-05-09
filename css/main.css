@@ -18,7 +18,6 @@ header{
     grid-template-rows: 1fr 1fr;
 }
 
-
 /*--------------------------------------------------------------- header */
 
 header .header-container-icons{
@@ -39,3 +38,31 @@ header .header-container-icons .icons{
 header .icons span{
     color:white;
 }
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background-color: #232323;
+}
+nav .nav-container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+nav .nav-container-logo img{
+    width: 250px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    text-decoration: underline;
+    font-size: 24px;
+    color:white;
+}
+
+/*--------------------------------------------------------------- hero */
