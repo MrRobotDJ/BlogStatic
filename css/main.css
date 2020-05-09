@@ -41,6 +41,9 @@ header .header-container-icons .icons{
 header .icons span{
     color:white;
 }
+.icons span:hover{
+    color:black;
+}
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -95,4 +98,7 @@ main{
     border: none;
     outline: none;
     cursor: pointer;
+}
+.main-container button a:hover{
+    color:white;
 }
