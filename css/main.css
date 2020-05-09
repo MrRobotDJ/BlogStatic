@@ -6,6 +6,8 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+    background: url(../assets/img/Cover.png) no-repeat center center fixed;
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -42,7 +44,6 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
-    background-color: #232323;
 }
 nav .nav-container-logo{
     display: flex;
