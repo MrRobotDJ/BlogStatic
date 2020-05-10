@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
 body{
     margin:0;
     padding:0;
     background:none;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
 }
 nav .profile-link a{
     color:black;
 }
-/*------------------------------------------------------------ main*/
+.blogs-button{
+    border: 1px #41cfac solid;
+    padding: 10px 20px;
+}
+
+/*------------------------------------------------------------ main section "blogs-news-container"*/
+
+.blogs-news-container{
+    height: 450px;
+    background-color: #E6E9ED;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0px 50px;
+}
+.blogs-news-img-container img{
+    width: 600px;
+}
+.blogs-news-info-container h2{
+    font-size:50px;
+}
+.blogs-news-info-container p{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+/*------------------------------------------------------------ main section "blogs-posts-container"*/
+
