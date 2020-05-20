@@ -56,6 +56,7 @@ nav .profile-link a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .post-container{
     width: 350px;
@@ -82,7 +83,6 @@ footer{
     display: flex;
     justify-content: center;
     border-top:30px #41cfac solid;
-    margin-top:50px;
 }
 footer p{
     color:white;
@@ -106,4 +106,28 @@ footer p{
 }
 .blogpost-main-container h1{
     font-size:35px;
+}
+
+.contact-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#e6e9ed ;
+}
+.contact-main{
+    display: flex;
+    padding: 50px;
+}
+.contact-main-container img{
+    width: 14%;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+.contact{
+    text-align: initial;
+    width: 49%;
+}
+.contact a{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
