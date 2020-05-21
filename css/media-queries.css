@@ -1,0 +1,17 @@
+@media (max-width: 900px){
+    .blogs-news-container{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .blogs-news-info-container h2{
+        font-size: 30px;
+    }
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+}
+@media (max-width: 620px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    } 
+}
