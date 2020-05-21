@@ -131,3 +131,47 @@ footer p{
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
+
+/*--------------------------------------------------------------------------------------------- perfil.html */
+
+.perfil-container{
+    /* height: 300px; */
+    background-color: #e6e9ed;
+    display: flex;
+   align-items: center;
+}
+.perfil-container img{
+    width: 350px;
+    margin:auto;
+    padding-left:50px;
+}
+.perfil-container div{
+    padding:50px 50px 100px;
+    margin:auto;
+}
+.perfil-container div h1{
+    font-size: 30px;
+}
+.perfil-container div p{
+    font-size: 14px;
+}
+
+.projects-container h3{
+    text-align: center;
+    border-bottom: 2px solid #e6e9ed;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projects article{
+    width: 30%;
+    padding-bottom: 50px;
+}
+.projects article p{
+    font-size: 14px;
+}
+
