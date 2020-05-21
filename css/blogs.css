@@ -133,30 +133,30 @@ footer p{
 }
 
 /*--------------------------------------------------------------------------------------------- perfil.html */
-.background-perfil{
+.background-profile{
     background-image:url(../assets/img/background-perfil.jpg);
     background-size: cover;
     background-position: center;
 }
-.perfil-container{
+.profile-container{
     border-radius: 15px;
     display: flex;
    align-items: center;
    background: linear-gradient(145deg,#41CFAC, #FA5AB5) ;
 }
-.perfil-container img{
+.profile-container img{
     width: 350px;
     margin:auto;
     padding-left:50px;
 }
-.perfil-container div{
+.profile-container div{
     padding:50px 50px 100px;
     margin:auto;
 }
-.perfil-container div h1{
+.profile-container div h1{
     font-size: 30px;
 }
-.perfil-container div p{
+.profile-container div p{
     font-size: 14px;
 }
 
